@@ -1,0 +1,54 @@
+name: Bug report
+description: Something in Copybara isn't working as it should.
+labels: [bug]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Thanks for reporting! **Never post private keys, seed phrases, sign-in codes, or screenshots that show them.** Security problems go to support.copybara@gmail.com, not here.
+  - type: textarea
+    id: what
+    attributes:
+      label: What happened?
+      description: What you did, what you expected, and what happened instead.
+    validations:
+      required: true
+  - type: dropdown
+    id: area
+    attributes:
+      label: Where?
+      options:
+        - Copying a wallet
+        - Positions or selling
+        - Activity
+        - Wallet, deposits or withdrawals
+        - Polymarket
+        - Sign-in or account
+        - Website (looks or layout)
+        - Something else
+    validations:
+      required: true
+  - type: dropdown
+    id: chain
+    attributes:
+      label: Chain
+      options:
+        - Robinhood Chain
+        - Solana
+        - Elysium
+        - Polymarket (Polygon)
+        - Not chain-specific
+  - type: input
+    id: tx
+    attributes:
+      label: Transaction hash or link (if any)
+      description: Public transaction hashes are fine to share.
+  - type: input
+    id: when
+    attributes:
+      label: When did it happen? (date, time and time zone)
+  - type: input
+    id: device
+    attributes:
+      label: Device and browser
+      placeholder: e.g. iPhone, Safari
