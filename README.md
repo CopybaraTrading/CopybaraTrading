@@ -22,7 +22,7 @@
 | | |
 |---|---|
 | [Architecture](docs/ARCHITECTURE.md) | The main parts of Copybara and how they fit together |
-| [Security model](docs/SECURITY_MODEL.md) | Custody, wallet permissions and how every transaction is authorised |
+| [Security model](docs/SECURITY_MODEL.md) | Custody, wallet permissions and how every transaction is authorised. In plain terms: [copybara.trading/security](https://copybara.trading/security) |
 | [Trade execution](docs/TRADING.md) | How trades are spotted, copied, confirmed, and handled when they fail |
 | [Supported chains](docs/CHAINS.md) | What works on each chain, and its limits |
 | [Fees](docs/FEES.md) | Copybara's fee, network fees and anything else you pay |

@@ -1,5 +1,7 @@
 # Security model
 
+The same in plain terms, with how to revoke access and export your wallet: [copybara.trading/security](https://copybara.trading/security).
+
 ## Custody
 
 **Copybara is noncustodial.**
